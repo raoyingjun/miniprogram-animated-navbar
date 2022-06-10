@@ -1,0 +1,4 @@
+<view style="height: {{statusBarHeight + 44}}px; "></view>
+<view style="height: {{statusBarHeight + 44}}px;" class="nav">
+    <view class="search" style="margin: {{statusBarHeight + 5}}px 0 0 50rpx;">搜索想要的商品</view>
+</view>

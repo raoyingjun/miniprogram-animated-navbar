@@ -1,0 +1,24 @@
+.nav {
+  background-color: skyblue;
+  line-height: 80rpx;
+  height: 80rpx;
+  white-space: nowrap;
+}
+
+.nav-item {
+  display: inline-block;
+  margin: 0 20rpx;
+}
+
+.active {
+  color: red
+}
+
+.nav-bar {
+  width: 80rpx;
+  height: 8rpx;
+  background: red;
+  position: absolute;
+  top: 60rpx;
+  transition: left 400ms;
+}

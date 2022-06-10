@@ -1,0 +1,17 @@
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    overflow: hidden;
+    z-index: 99999;
+}
+.search {
+    width: 450rpx;
+    line-height: 60rpx;
+    background: rgb(231, 231, 231);
+    border-radius: 30rpx;
+    text-align: center;
+    color: gray;
+    font-size: 30rpx;
+}

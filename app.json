@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/a/a",
+    "pages/b/b"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "custom": true,
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "苹果"
+      },
+      {
+        "pagePath": "pages/a/a",
+        "text": "香蕉"
+      },
+      {
+        "pagePath": "pages/b/b",
+        "text": "例子"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

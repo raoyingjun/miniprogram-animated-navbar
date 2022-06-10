@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+    "van-tabbar": "@vant/weapp/tabbar/index",
+    "van-tabbar-item": "@vant/weapp/tabbar-item/index",
+    "r-nav-bar": "/components/custom-nav-bar/custom-nav-bar",
+    "r-container": "/components/container/container"
+  }
+}

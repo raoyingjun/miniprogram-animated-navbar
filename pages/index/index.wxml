@@ -1,0 +1,13 @@
+<r-nav-bar/>
+<r-container>
+  <view style="position: relative;">
+    <view wx:for="{{15}}">测试吸顶效果</view>
+    <scroll-view id="scroll-view" class="sticky-on-top nav" scroll-x scroll-with-animation bindscroll="setScroll" scroll-left="{{curScrollLeft}}">
+      <view class="nav-bar" style="left: {{left}}px"></view>
+      <view class="nav-item {{currentNav === ('nav-' + item) ? 'active' : ''}}" wx:for="{{15}}" id="nav-{{item}}" bindtap="scrollToNav" data-id="nav-{{item}}">
+        导肮{{ item }}
+      </view>
+    </scroll-view>
+    <view wx:for="{{40}}">测试吸顶效果</view>
+  </view>
+</r-container>
